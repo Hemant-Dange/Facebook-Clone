@@ -1,0 +1,87 @@
+#moto {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    font-size: 28px;
+    padding: 0px;
+    margin: 0%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login {
+    background-color: rgba(24, 119, 242, 255);
+    font: 2em Arial;
+    font-size: larger;
+    color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+#forgot {
+    color: rgba(45, 126, 243, 255);
+    position: relative;
+    left: 35%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: right;
+    width: 25%;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+    text-shadow: 8px;
+    box-shadow: 8px;
+    padding: 2%;
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+
+.whole {
+    background-color: rgba(240, 242, 245, 255);
+}
+
+.create {
+    background-color: rgba(66, 183, 42, 255);
+    font: 2em Arial;
+    font-size: larger;
+    color: white;
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    left: 25%;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.image {
+    padding: 0%;
+    margin: 0%;
+    border: none;
+}
+
+.left {
+    width: 80%;
+    position: absolute;
+    top: 260px;
+    left: 280px;
+}
